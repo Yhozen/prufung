@@ -29,19 +29,19 @@ import { expect } from 'prufung'
 
 const add = (a, b) => a + b
 
-expect(add, 3, 4).toBe(11) // true
+expect(add, 5, 6).toBe(11) // true
 
-expect(add, 3, 4).not.toBe(11) // false
+expect(add, 5, 6).not.toBe(11) // false
 
-expect(add, 3, 4).toBeFalsy() // false
+expect(add, 5, 6).toBeFalsy() // false
 
-expect(add, 3, 4).toBeTruthy(11) // false
+expect(add, 5, 6).toBeTruthy(11) // false
 
-expect(add, 3, 4).toBeAny(1,2,3,4,5) // false
-expect(add, 3, 4).toBeAny(11,2,3,4,5) // true
+expect(add, 5, 6).toBeAny(1,2,3,4,5) // false
+expect(add, 5, 6).toBeAny(11,2,3,4,5) // true
 
-expect(add, 3, 4).toBeNone(1,2,3,4,5) // true
-expect(add, 3, 4).toBeAny(11,2,3,4,5) // true
+expect(add, 5, 6).toBeNone(1,2,3,4,5) // true
+expect(add, 5, 6).toBeAny(11,2,3,4,5) // true
 
 const passArg = a => a
 expect(passArg, {}).toBe({}) // false

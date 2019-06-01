@@ -1,0 +1,21 @@
+{
+  "name": "prufung",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Garox",
+  "license": "MIT",
+  "dependencies": {
+    "@types/ramda": "^0.26.9",
+    "autobind-decorator": "^2.4.0",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.1"
+  }
+}

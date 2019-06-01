@@ -12,8 +12,7 @@ test('toBe', () => {
     expect(expected.toBe(15)).toBe(false)
     expect(expected.not.toBe(11)).toBe(false)
     expect(expected.not.toBe(15)).toBe(true)
-    expect(expected.toBe(11)).toBe(true)
-    expect(expected.toBe(15)).toBe(false)
+
 
     const expectedObj = prufung.expect(passArg, {})
     const expectedArr = prufung.expect(passArg, [])

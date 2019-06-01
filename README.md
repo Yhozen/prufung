@@ -35,7 +35,7 @@ expect(add, 5, 6).not.toBe(11) // false
 
 expect(add, 5, 6).toBeFalsy() // false
 
-expect(add, 5, 6).toBeTruthy(11) // false
+expect(add, 5, 6).toBeTruthy() // true
 
 expect(add, 5, 6).toBeAny(1,2,3,4,5) // false
 expect(add, 5, 6).toBeAny(11,2,3,4,5) // true
